@@ -1,0 +1,11 @@
+20. độ ưu tiên của inline, internal, external:
+từ cao --> thấp: inline-->internal, external
+về internal và external cái nào viết sau(theo dòng code) cái đó ưu tiên hơn
+
+
+
+
+21. về git:
+git add.--> add tất cả
+git add ten_thu_muc --> add thư mục
+git commit -m 

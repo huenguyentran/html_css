@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first website</title>
+    <link rel="icon" type="image/jpg" href="image/kyouka.jpg" />
+  </head>
+  <body>
+    <h1><span style="background-color: beige">this is span title</span></h1>
+    <h1><div style="background-color: cyan">this is div title</div></h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipis<span
+        style="background-color: beige"
+      >
+        dolor facilis quis facere? Eum, eveniet inventore consequuntur doloribus
+        quasi earum accusantium sed corrupti aliquam? Cumque,
+        consequuntur.</span
+      >
+    </p>
+    <a href="https://www.google.com/" target="_blank" title="Going to google">
+      click me
+    </a>
+    <br />
+    <a href="mailto:test@fake.com" target="none" title="title ne:\\">
+      email me
+    </a>
+    <br />
+    <h2>image</h2>
+    <br />
+    <img
+      src="image/mylove.jpg"
+      alt="This is a picture of a dog(when mylove.jpg was not found)"
+      height="400"
+    />
+    <br />
+    <hr />
+    <br />
+    <img src="image/giffile.gif" alt="This is a gif image" height="400" />
+
+    <br />
+    <h2>Audio</h2>
+    <br />
+    <audio controls muted loop>
+      <source src="audiofile.wav" type="audio/wav" />
+    </audio>
+    <h2>video</h2>
+    <video src="aa.mp4" width="500px" controls autoplay muted loop></video>
+
+    <p>this is a normal text</p>
+    <p>this is a <b>normal</b> text</p>
+    <p>this is a <i>normal</i> text</p>
+    <p>this is a <u>normal</u> text</p>
+    <p>this is a <del>normal</del> text</p>
+    <p>this is a <big>normal</big> text</p>
+    <p>this is a <small>normal</small> text</p>
+    <p>this is a <em>normal</em> text</p>
+    <p>this is a <strong>normal</strong> text</p>
+
+    <p>
+      this is a <mark style="background-color: lightpink">normal</mark> text
+    </p>
+    <p>this is a <tt>normal</tt> text</p>
+    <br /><br />
+
+    <h4>groceries</h4>
+    <ul style="background-color: darkkhaki">
+      <li>milk</li>
+      <li>eggs</li>
+      <li>beverage</li>
+      <ul>
+        <li>coffee beans</li>
+        <li>milk</li>
+      </ul>
+    </ul>
+    <h4>Todo list</h4>
+    <ol>
+      <li>work</li>
+      <li>eat breafast</li>
+      <li>go to class</li>
+    </ol>
+
+    <!--description list-->
+    <h4>Mythical creatures</h4>
+
+    <dl style="background-color: burlywood; border: 2px solid">
+      <dt>dragon</dt>
+      <dd>
+        A dragon is a magical legendary creature that appears in the folklore of
+        multiple cultures worldwide.
+      </dd>
+      <dt>phoenix</dt>
+      <dd>
+        The phoenix is an immortal bird that cyclically regenerates or is
+        otherwise born again.
+      </dd>
+      <dt>vampie</dt>
+      <dd>
+        A vampire is a mythical creature that subsists by feeding on the vital
+        essence (generally in the form of blood) of the living.
+      </dd>
+      <dt>werewolf</dt>
+      <dd>
+        A werewolf is a man who turns into a wolf at night and devours animals,
+        people, or corpses but returns to human form by day
+      </dd>
+    </dl>
+
+    <!--table-->
+    <table>
+      <tr></tr>
+    </table>
+    <!-- button -->
+    <a href="http://google.com">
+      <button
+        style="
+          font-size: 25px;
+          background-color: cadetblue;
+          border-radius: 55px;
+        "
+      >
+        click me
+      </button>
+    </a>
+
+    <!-- form -->
+    <form action="index.php" method="POST">
+      <label for="username">username:</label>
+      <input
+        type="text"
+        id="username"
+        placeholder="username"
+        minlength="6"
+        maxlength="12"
+        required
+      />
+
+      <label for="password">password:</label>
+      <input type="password" id="password" placeholder="password" />
+
+      <label for="phone">phone #</label>
+      <input
+        type="tel"
+        id="phone"
+        placeholder="000-000-000"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+      />
+      <br />
+
+      <label for="bday">birthdate</label>
+      <!-- <input type="date"> -->
+
+      <input type="reset" /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
