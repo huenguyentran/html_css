@@ -1,0 +1,26 @@
+20. độ ưu tiên của inline, internal, external:
+từ cao --> thấp: inline-->internal, external
+về internal và external cái nào viết sau(theo dòng code) cái đó ưu tiên hơn
+
+
+
+
+21. về git:
+git add.--> add tất cả
+git add ten_thu_muc --> add thư mục
+git commit -m "ten commit"
+https://www.youtube.com/watch?v=AojrXhs0aVE&list=PLPt6-BtUI22oveeGAyckbAXRSmTBGLZP4&index=26
+
+23. các thuộc tính(attribute) cơ bảm của css
+https://www.w3schools.com/
+https://www.w3schools.com/cssref/index.php
+
+24> thuộc tính cơ bản:
+1. opacity: quy định dộ trong suốt
+        . 0.0 --> 1.0: mờ nhất đến rõ nhất opacity: 0.5
+        . 0% --> 100%:                      opacity: 50%
+2.Display: none ẩn phần tử khỏi giao diện--> ẩn hẳn mất luôn vùng hiển thị
+display none: mất không gian chứa != opacity: 0: vẫn copy được, vẫn để lại vùng  trống ở giữa
+3. visibility: hidden: ẩn element --> ko nhìn thấy trên giao diện
+                                      vẫn chiếm không gian
+                                      không tương tác được
