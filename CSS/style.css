@@ -2,7 +2,22 @@ h1 {
     color: blue;
     font-style: italic;
   }
-
+  
 p {
     color: rgb(24, 103, 103);
+}
+  
+  
+img{
+      /* display ko ho tro animation, conf visibility thi co ho tro animation*/
+      transition: 1.5s;
+      /* khi co 1 thay doi tac dong len img thi ton 1.5s de thay doi */
   }
+input:checked ~ img{
+    /* neu muon bien mat khoi giao dien, ko chiem vi tri */
+    display: none;
+    /* bien mat khoi giao dien, nhung van chiem vi tri, tuong tac duoc */
+    visibility: hidden;
+    /* lam mo di, ko tuong tac duo */
+    opacity: 0;
+}
