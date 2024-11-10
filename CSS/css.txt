@@ -24,3 +24,15 @@ display none: mất không gian chứa != opacity: 0: vẫn copy được, vẫn
 3. visibility: hidden: ẩn element --> ko nhìn thấy trên giao diện
                                       vẫn chiếm không gian
                                       không tương tác được
+
+
+25> Favicon: icon nhỏ trên góc web
+thêm favicon
+link:favicon tab
+link: favicon.ico--> tang web favicon 
+make favicon online
+
+
+26> CSS prefix: css có nhiều thuộc tính và ko phải thuộc tính nào cũng hỗ trợ tất cả các trình duyệt
+--> khi gặp 1 thuộc tính ko hỗ trợ all trình duyệt cần thêm tiền tố prefix để đcc hỗ trợ
+vendor prefix css: để kiểm tra prefix của 1 trình duyệt
